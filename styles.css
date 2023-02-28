@@ -1,0 +1,63 @@
+/* Utilisation de la police Roboto pour tous les éléments de la page */
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Styling pour la barre de navigation */
+  nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Styling pour les sections */
+  section {
+    padding: 50px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  /* Ajout de classes aux éléments HTML */
+  nav ul li a[href="#accueil"] {
+    color: red;
+  }
+  
+  nav ul li a[href="#a-propos"] {
+    color: green;
+  }
+  
+  nav ul li a[href="#travail"] {
+    color: blue;
+  }
+  
+  nav ul li a[href="#cv"] {
+    color: yellow;
+  }
+  
+  nav ul li a[href="#contact"] {
+    color: orange;
+  }
+  
+  section#travail ul li {
+    font-weight: bold;
+  }
